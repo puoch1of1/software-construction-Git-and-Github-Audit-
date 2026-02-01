@@ -10,7 +10,7 @@ and hands-on exercises aligned with each course module.
 ## Contributors
 - Absolom Orianga
 - Travis Mark Lufene
-- Mubiru Humphrey
+- Mubiru Humphery
 - Puoch Mabor Makuei
 - Sebatta Allan Kagimu
 
