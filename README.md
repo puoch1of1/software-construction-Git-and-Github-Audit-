@@ -15,7 +15,7 @@ and hands-on exercises aligned with each course module.
 - Sebatta Allan Kagimu
 
 ## Repository Structure
-The repository is organized by course modules. Each module contains folders for
+The repository is organized in course modules. Each module contains folders for
 individual contributors as well as shared demonstration files where applicable.
 
 ## Collaboration Workflow
