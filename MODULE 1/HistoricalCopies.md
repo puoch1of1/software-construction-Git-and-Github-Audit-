@@ -1,0 +1,5 @@
+Lecture Summary - Historical Copies
+
+Many people have unknowingly practiced a basic form of version control by manually saving copies of a project, emailing files to teammates, or backing up work before deleting major changes. These methods allow teams to return to earlier versions, track progress, and understand why certain changes were made. However, this approach is considered primitive because it is manual, inefficient, and lacks detail. It requires remembering to make copies, often duplicates entire projects for small changes, and makes it difficult to track who made specific changes and why.
+
+Version control systems formalize this same idea in a more efficient and reliable way. They track changes across different types of files, allow easy comparison between versions, support collaboration, and make it simple to revert changes when needed. Tools like Git provide structured control over historical versions, improving both individual workflows and team collaboration.
