@@ -1,4 +1,4 @@
-# Git & GitHub Learning Repository
+<img width="1532" height="917" alt="image" src="https://github.com/user-attachments/assets/9026b1ed-e745-41ef-9ee1-e16cea4c8940" /># Git & GitHub Learning Repository
 
 This repository documents our group’s learning journey while auditing Google’s
 “Introduction to Git and GitHub” course on Coursera.
@@ -26,6 +26,6 @@ individual contributors as well as shared demonstration files where applicable.
 
 This workflow evolves to mirror the concepts taught in the course.
 
-# *4. How code reviews improve software quality and developer skills*
+### *4. How code reviews improve software quality and developer skills*
 
-Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
+Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues, and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards, and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
