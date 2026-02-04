@@ -1,5 +1,3 @@
-<img width="1532" height="917" alt="image" src="https://github.com/user-attachments/assets/9026b1ed-e745-41ef-9ee1-e16cea4c8940" /># Git & GitHub Learning Repository
-
 This repository documents our group’s learning journey while auditing Google’s
 “Introduction to Git and GitHub” course on Coursera.
 
