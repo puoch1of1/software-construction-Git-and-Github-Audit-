@@ -1,8 +1,6 @@
-Here’s the clean, no-nonsense version, with the important ideas and the code encoded where it helps.
+Lecture Summary - Anatomy of a commit
 
----
-
-A **commit message** is not decoration. It’s documentation for humans—especially future you and teammates who weren’t in your head when you made the change. A good message explains **what changed and why**, not just that something changed.
+A **commit message** is not decoration. It’s documentation for teams, especially future you and teammates who weren’t in your head when you made the change. A good message explains **what changed and why**, not just that something changed.
 
 When writing a commit message, think about someone reading it months later. What context would they need? Was the change tricky? Did it fix a bug or relate to a ticket? Extra clarity now saves serious confusion later.
 
