@@ -19,9 +19,8 @@ The repository is organized in course modules and each module contains folders f
 individual contributors as well as shared demonstration files where applicable.
 
 ## Collaboration Workflow
-- **Modules 1–2:** Direct commits to `main` within individual folders.
-- **Module 3:** Introduction of remote repositories and occasional branching.
-- **Module 4:** Branch-based development using pull requests, code reviews, and
-  controlled merges into `main`.
+Each contributor works on their own branch and submits pull requests to merge
+into `main`. We do not commit directly to `main`, and we do not use individual
+folders that commit to `main`.
 
-This workflow evolves to mirror the concepts taught in the course.
+This workflow mirrors the course’s branch-based collaboration model.
