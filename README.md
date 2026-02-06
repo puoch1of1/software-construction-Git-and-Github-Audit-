@@ -15,8 +15,9 @@ and hands-on exercises aligned with each course module.
 - Sebatta Allan Kagimu
 
 ## Repository Structure
-The repository is organized in course modules and each module contains folders for
-individual contributors as well as shared demonstration files where applicable.
+The repository is organized by course modules. Each contributor works on a
+personal branch, committing lecture summaries and any complementary code
+samples, then merges changes into `main` via pull requests.
 
 ## Collaboration Workflow
 Each contributor works on their own branch and submits pull requests to merge
