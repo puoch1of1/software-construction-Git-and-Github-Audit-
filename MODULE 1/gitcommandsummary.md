@@ -116,7 +116,3 @@ users when storage falls below a safe threshold. Fixes issue #42.
 ### Key Takeaways
 
 Understanding Git’s structure and commands helps manage projects effectively. Using commands like `git init`, `git add`, `git status`, and `git commit` allows you to track changes and maintain organized version history. Writing clear commit messages strengthens collaboration and makes future debugging or updates far easier.
-
----
-
-Version control behaves like a time machine combined with a journal. Each commit records not only the state of your project but also the reasoning behind changes, forming a living record of how software evolves.
