@@ -22,7 +22,7 @@ This repository is used to:
 - Sebatta Allan Kagimu  
 
 ## Repository Structure
-The repository is organized according to learning modules and exercises from both learning platforms. Contributors submit:
+The repository is organized according to learning modules and exercises from both learning platforms. Each module contains folders for individual contributors and shared demonstration files where applicable. Contributors submit:
 
 - Lecture and tutorial summaries  
 - Practical exercises  
