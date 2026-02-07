@@ -1,18 +1,25 @@
-# Git & GitHub Learning Repository
+# Git & GitHub Collaborative Learning Repository
 
-This repository documents our group’s learning journey while auditing Google’s
-“Introduction to Git and GitHub” course on Coursera.
+## Overview
+This repository documents our group’s learning journey while studying Git and GitHub through both the **Google "Introduction to Git and GitHub" Coursera course** and the **W3Schools Git Tutorial**.
 
-The goal of this repository is to demonstrate practical understanding of Git,
-GitHub, and collaborative workflows through consistent commits, structured notes,
-and hands-on exercises aligned with each course module.
+The repository serves as a practical workspace where we apply version control concepts through structured notes, exercises, and collaborative development workflows.
+
+## Purpose
+This repository is used to:
+
+- Demonstrate practical understanding of Git and GitHub concepts  
+- Practice real-world collaborative development workflows  
+- Track individual and group contributions through commits and pull requests  
+- Document lecture summaries, exercises, and learning reflections  
+- Build confidence using distributed version control systems  
 
 ## Contributors
-- Absolom Orianga
-- Travis Mark Lufene
-- Mubiru Humphery
-- Puoch Mabor Makuei
-- Sebatta Allan Kagimu
+- Absolom Orianga  
+- Travis Mark Lufene  
+- Mubiru Humphery  
+- Puoch Mabor Makuei  
+- Sebatta Allan Kagimu  
 
 ## Repository Structure
 The repository is organized by course modules. Each contributor works on a
