@@ -31,64 +31,10 @@ The repository is organized according to learning modules and exercises from bot
 - Supporting code samples where applicable  
 - Notes and documentation related to Git concepts  
 
-- Each contributor works on their **own branch**
-- Work is committed regularly with clear commit messages
-- Changes are submitted through **Pull Requests**
-- Pull Requests are reviewed before merging into `main`
-- Direct commits to `main` are avoided to maintain repository stability
-
-This workflow mirrors industry-standard collaborative development practices.
-
-## Tools and Platforms Used
-- Git  
-- GitHub  
-- Google Coursera – Introduction to Git and GitHub  
-- W3Schools Git Tutorial  
-- Code Editors (e.g., Visual Studio Code)
-
-## Learning Outcome
-By completing both learning platforms and practicing collaboratively in this repository, the group aims to:
-
-- Understand Git architecture and workflows  
-- Apply branching and merging strategies effectively  
-- Use GitHub collaboration tools such as pull requests and reviews  
-- Develop industry-ready version control skills  
-- Strengthen teamwork and collaborative software development practices  
-
-## Notes
-This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
->>>>>>> origin/main
-=======
 ## Collaboration Workflow
 To encourage proper version control practices and transparency in contribution tracking:
 
-- Each contributor works on their **own branch**
-- Work is committed regularly with clear commit messages
-- Changes are submitted through **Pull Requests**
-- Pull Requests are reviewed before merging into `main`
-- Direct commits to `main` are avoided to maintain repository stability
-
-This workflow mirrors industry-standard collaborative development practices.
-
-## Tools and Platforms Used
-- Git
-- GitHub
-- Google Coursera – Introduction to Git and GitHub
-- W3Schools Git Tutorial
-- Code Editors (e.g., Visual Studio Code)
-
-## Learning Outcome
-By completing both learning platforms and practicing collaboratively in this repository, the group aims to:
-
-- Understand Git architecture and workflows
-- Apply branching and merging strategies effectively
-- Use GitHub collaboration tools such as pull requests and reviews
-- Develop industry-ready version control skills
-- Strengthen teamwork and collaborative software development practices
-
-## Notes
-This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
-=======
+<<<<<<<<< Temporary merge branch 1
 - Each contributor works on their **own branch**
 - Work is committed regularly with clear commit messages
 - Changes are submitted through **Pull Requests**
@@ -115,4 +61,11 @@ By completing both learning platforms and practicing collaboratively in this rep
 
 ## Notes
 This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
->>>>>>> origin/main
+=========
+This workflow evolves to mirror the concepts taught in the course.
+
+### *4. How code reviews improve software quality and developer skills*
+
+Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues, and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards, and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
+This workflow mirrors the course’s branch-based collaboration model.
+>>>>>>>>> Temporary merge branch 2
