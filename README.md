@@ -1,3 +1,5 @@
+This repository documents our group’s learning journey while auditing Google’s
+“Introduction to Git and GitHub” course on Coursera.
 # Git & GitHub Collaborative Learning Repository
 
 ## Overview
@@ -31,4 +33,9 @@ Each contributor works on their own branch and submits pull requests to merge
 into `main`. We do not commit directly to `main`, and we do not use individual
 folders that commit to `main`.
 
+This workflow evolves to mirror the concepts taught in the course.
+
+### *4. How code reviews improve software quality and developer skills*
+
+Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues, and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards, and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
 This workflow mirrors the course’s branch-based collaboration model.
