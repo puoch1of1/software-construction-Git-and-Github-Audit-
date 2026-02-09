@@ -1,0 +1,7 @@
+Version Control Lecture Summary
+
+Version control systems (VCS) build on tools like diff and patch by automatically tracking changes made to files over time. Instead of manually comparing or applying changes, a VCS records what changed, who changed it, and when it was changed, making it easy to revert mistakes and manage ongoing development. Although they may seem complex at first, VCSs are essentially systems that store files along with their full history, not just the latest version.
+
+A key feature of a VCS is the ability to group multiple file edits into a single commit, along with a message explaining why the change was made. These commit messages are critical for understanding past decisions, debugging issues, and maintaining complex projects. Files are organized into repositories, which can be used by one person or thousands of contributors and may have different access levels depending on the team.
+
+While version control is especially effective for tracking text files like code, scripts, and documentation, it can also store other file types such as images or videos, even though differences between versions may be harder to compare or merge. Overall, a VCS is a core tool in software and IT work, enabling reliable change tracking, collaboration, and long-term maintainability of many types of files.
