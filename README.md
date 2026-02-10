@@ -1,3 +1,5 @@
+This repository documents our group’s learning journey while auditing Google’s
+“Introduction to Git and GitHub” course on Coursera.
 # Git & GitHub Collaborative Learning Repository
 
 ## Overview
@@ -32,6 +34,7 @@ The repository is organized according to learning modules and exercises from bot
 ## Collaboration Workflow
 To encourage proper version control practices and transparency in contribution tracking:
 
+<<<<<<<<< Temporary merge branch 1
 - Each contributor works on their **own branch**
 - Work is committed regularly with clear commit messages
 - Changes are submitted through **Pull Requests**
@@ -58,3 +61,11 @@ By completing both learning platforms and practicing collaboratively in this rep
 
 ## Notes
 This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
+=========
+This workflow evolves to mirror the concepts taught in the course.
+
+### *4. How code reviews improve software quality and developer skills*
+
+Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues, and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards, and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
+This workflow mirrors the course’s branch-based collaboration model.
+>>>>>>>>> Temporary merge branch 2
