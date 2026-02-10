@@ -40,6 +40,9 @@ To encourage proper version control practices and transparency in contribution t
 
 This workflow mirrors industry-standard collaborative development practices and the concepts taught in the course.
 
+### How code reviews improve software quality and developer skills
+Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues, and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards, and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
+
 ## Tools and Platforms Used
 - Git  
 - GitHub  
