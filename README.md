@@ -61,3 +61,5 @@ By completing both learning platforms and practicing collaboratively in this rep
 
 ## Notes
 This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
+
+For merge conflicts involving `README.md`, use the `Puoch-Mabor-M` branch version as the authoritative source.
