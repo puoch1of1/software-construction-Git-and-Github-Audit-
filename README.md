@@ -1,29 +1,68 @@
-# Git & GitHub Learning Repository
+# Git & GitHub Collaborative Learning Repository
 
-This repository documents our group’s learning journey while auditing Google’s
-“Introduction to Git and GitHub” course on Coursera.
+## Overview
+This repository documents our group’s learning journey while studying Git and GitHub through both the **Google "Introduction to Git and GitHub" Coursera course** and the **W3Schools Git Tutorial**.
 
-The goal of this repository is to demonstrate practical understanding of Git,
-GitHub, and collaborative workflows through consistent commits, structured notes,
-and hands-on exercises aligned with each course module.
+The repository serves as a practical workspace where we apply version control concepts through structured notes, exercises, and collaborative development workflows.
+
+## Purpose
+This repository is used to:
+
+- Demonstrate practical understanding of Git and GitHub concepts  
+- Practice real-world collaborative development workflows  
+- Track individual and group contributions through commits and pull requests  
+- Document lecture summaries, exercises, and learning reflections  
+- Build confidence using distributed version control systems  
 
 ## Contributors
-- Absolom Orianga
-- Travis Mark Lufene
-- Mubiru Humphery
-- Puoch Mabor Makuei
-- Sebatta Allan Kagimu
+- Absolom Orianga  
+- Travis Mark Lufene  
+- Mubiru Humphery  
+- Puoch Mabor Makuei  
+- Sebatta Allan Kagimu  
 
 ## Repository Structure
-The repository is organized in course modules. Each module contains folders for
-individual contributors as well as shared demonstration files where applicable.
+The repository is organized according to learning modules and exercises from both learning platforms. Each module contains folders for individual contributors and shared demonstration files where applicable. Contributors submit:
+
+- Lecture and tutorial summaries  
+- Practical exercises  
+- Supporting code samples where applicable  
+- Notes and documentation related to Git concepts  
 
 ## Collaboration Workflow
-- **Modules 1–2:** Direct commits to `main` within individual folders.
-- **Module 3:** Introduction of remote repositories and occasional branching.
-- **Module 4:** Branch-based development using pull requests, code reviews, and
-  controlled merges into `main`.
+To encourage proper version control practices and transparency in contribution tracking:
 
+- Each contributor works on their **own branch**
+- Work is committed regularly with clear commit messages
+- Changes are submitted through **Pull Requests**
+- Pull Requests are reviewed before merging into `main`
+- Direct commits to `main` are avoided to maintain repository stability
+
+This workflow mirrors industry-standard collaborative development practices and the concepts taught in the course.
+
+### How code reviews improve software quality and developer skills
+Code reviews allow developers to examine each other’s work before it becomes part of the main project. This helps detect bugs, security issues, and inefficient logic early, improving overall software quality. At the same time, developers learn new techniques, coding standards, and best practices from feedback. Junior developers gain mentorship, while experienced developers refine their communication and design thinking skills.
+
+## Tools and Platforms Used
+- Git  
+- GitHub  
+- Google Coursera – Introduction to Git and GitHub  
+- W3Schools Git Tutorial  
+- Code Editors (e.g., Visual Studio Code)
+
+## Learning Outcome
+By completing both learning platforms and practicing collaboratively in this repository, the group aims to:
+
+- Understand Git architecture and workflows  
+- Apply branching and merging strategies effectively  
+- Use GitHub collaboration tools such as pull requests and reviews  
+- Develop industry-ready version control skills  
+- Strengthen teamwork and collaborative software development practices  
+
+## Notes
+This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
+
+<<<<
 This workflow evolves to mirror the concepts taught in the course.
 
 **Module 1-2**
@@ -66,3 +105,6 @@ A student forgets to pull before push (resulting in a non-fast-forward error).
 A student accidentally edits the README or a course-wide config file.
 
 Resolution Strategy (Module 1-2 style): Since there are no branches, the resolution is usually a simple git pull --no-ff or forcing the student to re-commit after updating their local copy.
+====
+For merge conflicts involving `README.md`, use the `Puoch-Mabor-M` branch version as the authoritative source.
+>>>>
