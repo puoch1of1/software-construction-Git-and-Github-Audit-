@@ -103,8 +103,3 @@ Because students work in separate folders, merge conflicts are rare. However, th
 A student forgets to pull before push (resulting in a non-fast-forward error).
 
 A student accidentally edits the README or a course-wide config file.
-
-Resolution Strategy (Module 1-2 style): Since there are no branches, the resolution is usually a simple git pull --no-ff or forcing the student to re-commit after updating their local copy.
-====
-For merge conflicts involving `README.md`, use the `Puoch-Mabor-M` branch version as the authoritative source.
->>>>
