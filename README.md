@@ -33,6 +33,7 @@ folders that commit to `main`.
 
 
 ## This workflow mirrors the course’s branch-based collaboration model.##
+This workflow mirrors the course’s branch-based collaboration model.
 - Each contributor works on their **own branch**
 - Work is committed regularly with clear commit messages
 - Changes are submitted through **Pull Requests**
