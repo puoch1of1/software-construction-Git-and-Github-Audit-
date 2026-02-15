@@ -22,16 +22,18 @@ This repository is used to:
 - Sebatta Allan Kagimu  
 
 ## Repository Structure
-The repository is organized according to learning modules and exercises from both learning platforms. Each module contains folders for individual contributors and shared demonstration files where applicable. Contributors submit:
-
-- Lecture and tutorial summaries  
-- Practical exercises  
-- Supporting code samples where applicable  
-- Notes and documentation related to Git concepts  
+The repository is organized by course modules. Each contributor works on a
+personal branch, committing lecture summaries and any complementary code
+samples, then merges changes into `main` via pull requests.
 
 ## Collaboration Workflow
-To encourage proper version control practices and transparency in contribution tracking:
+Each contributor works on their own branch and submits pull requests to merge
+into `main`. We do not commit directly to `main`, and we do not use individual
+folders that commit to `main`.
 
+<<<<<<< HEAD
+This workflow mirrors the course’s branch-based collaboration model.
+=======
 - Each contributor works on their **own branch**
 - Work is committed regularly with clear commit messages
 - Changes are submitted through **Pull Requests**
@@ -103,3 +105,4 @@ Because students work in separate folders, merge conflicts are rare. However, th
 A student forgets to pull before push (resulting in a non-fast-forward error).
 
 A student accidentally edits the README or a course-wide config file.
+>>>>>>> beea1daf30a533df4b0b6fd1fb33f754a469b420
