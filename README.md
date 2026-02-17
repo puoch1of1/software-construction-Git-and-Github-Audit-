@@ -104,6 +104,51 @@ A student forgets to pull before push (resulting in a non-fast-forward error).
 
 A student accidentally edits the README or a course-wide config file.
 
+**Module 3**
+1. The Cognitive Shift: Local vs. Remote
+In Modules 1-2, students thought of Git as a tool on their hard drive. In Module 3, the concept of the Remote (usually GitHub/GitLab) becomes a first-class citizen.
+
+Origin is Introduced: Students learn that origin is just a nickname for the URL of the server.
+
+Fetch vs. Pull: Instructors introduce git fetch to "check" what has changed on the server without merging it, teaching students to inspect changes before integrating them.
+
+Cloning: Instead of starting a repository with init, students learn to start by copying an existing one with git clone.
+
+2. The Introduction of "Occasional" Branching
+This is the most significant technical leap in Module 3. Students are no longer tied to the main trunk.
+
+Why Branch? Instructors introduce the concept of a "sandbox" or "experiment." If a student wants to try a risky change (refactoring code, testing a new library), they can do it on a branch without breaking the working version on main.
+
+Basic Branch Commands: Students learn git branch <name>, git switch <name> (or checkout), and the crucial step of merging a branch back into main locally.
+
+The "Occasional" Nature: At this stage, branching is usually for personal experimentation or specific assignment checkpoints, rather than the default method of work. It might be used to separate "Part A" of an assignment from "Part B."
+
+3. The Collaboration Style: "Asynchronous Handoff"
+Collaboration in Module 3 is more intentional than in Modules 1-2, but still less formal than Pull Requests.
+
+Working on the Same File (Finally): Because of branching, students can now theoretically work on the same file without immediate disaster. If Student A branches to edit readme.md and Student B stays on main to edit it, they will eventually have to reconcile.
+
+The Remote as Hub: Students are taught that the Remote repository is the "source of truth" and the medium for sharing work. "Hey, I finished my part, I pushed it to a branch called feature-login, you can check it out."
+
+Conflict Resolution Deep Dive: Because branching invites parallel edits, Module 3 is usually where real merge conflicts are taught. Students learn to read the <<<<<<< HEAD markers and decide which code to keep.
+
+4. The Workflow in Practice (Example)
+A typical Module 3 assignment might look like this:
+
+Clone: Student clones the class repo (or a partner repo) from GitHub.
+
+Branch: Student creates a branch called feature-calculator to build a new function.
+
+Commit (Local): They commit multiple times on their branch.
+
+Publish Branch: The student pushes the branch to the remote (git push origin feature-calculator).
+
+Partner Interaction: The partner fetches the remote branches (git fetch) and checks out that branch to look at the code, or merges it into their own branch to test integration.
+
+Local Merge: Once the feature works, the student switches back to main and merges feature-calculator into their local main.
+
+Push: The student pushes the updated main to the remote.
+
 Resolution Strategy (Module 1-2 style): Since there are no branches, the resolution is usually a simple git pull --no-ff or forcing the student to re-commit after updating their local copy.
 ====
 For merge conflicts involving `README.md`, use the `Puoch-Mabor-M` branch version as the authoritative source.
