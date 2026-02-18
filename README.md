@@ -22,16 +22,18 @@ This repository is used to:
 - Sebatta Allan Kagimu  
 
 ## Repository Structure
-The repository is organized according to learning modules and exercises from both learning platforms. Each module contains folders for individual contributors and shared demonstration files where applicable. Contributors submit:
-
-- Lecture and tutorial summaries  
-- Practical exercises  
-- Supporting code samples where applicable  
-- Notes and documentation related to Git concepts  
+The repository is organized by course modules. Each contributor works on a
+personal branch, committing lecture summaries and any complementary code
+samples, then merges changes into `main` via pull requests.
 
 ## Collaboration Workflow
-To encourage proper version control practices and transparency in contribution tracking:
+Each contributor works on their own branch and submits pull requests to merge
+into `main`. We do not commit directly to `main`, and we do not use individual
+folders that commit to `main`.
 
+
+## This workflow mirrors the course’s branch-based collaboration model.##
+This workflow mirrors the course’s branch-based collaboration model.
 - Each contributor works on their **own branch**
 - Work is committed regularly with clear commit messages
 - Changes are submitted through **Pull Requests**
@@ -62,11 +64,12 @@ By completing both learning platforms and practicing collaboratively in this rep
 ## Notes
 This repository functions as a shared learning log and collaborative workspace where progress, participation, and understanding of Git concepts can be clearly demonstrated.
 
-<<<<
 This workflow evolves to mirror the concepts taught in the course.
 
-**Module 1-2**
-1. The "Sandbox" Structure (Individual Folders)
+## Module 1-2
+**1.The "Sandbox" Structure (Individual Folders)**
+
+
 To allow 30+ students to commit simultaneously without catastrophic merge conflicts, the repository is structured with rigid isolation.
 
 The Rule: Each student is assigned a specific directory (e.g., /Module1/StudentName/ or /Assignments/StudentID/).
@@ -75,7 +78,9 @@ The Boundary: Students are instructed never to touch files outside their folder.
 
 The Implication: Because file paths don't intersect, Git treats the changes as independent. Two students can commit at the same time without creating conflicts.
 
-2. The "Main" Branch Mentality
+**2. The "Main" Branch Mentality**
+
+
 During Modules 1–2, students operate under the Centralized Workflow (even if they don't know the term yet).
 
 No Branches: All work is performed on the main branch (or master).
@@ -97,7 +102,9 @@ Viewing History: Using git log to see the timeline of changes (including classma
 
 The Three States: Modified, Staged, Committed.
 
-4. The "Easy" Conflicts
+**4. The "Easy" Conflicts**
+
+
 Because students work in separate folders, merge conflicts are rare. However, they occasionally occur if:
 
 A student forgets to pull before push (resulting in a non-fast-forward error).
@@ -152,4 +159,3 @@ Push: The student pushes the updated main to the remote.
 Resolution Strategy (Module 1-2 style): Since there are no branches, the resolution is usually a simple git pull --no-ff or forcing the student to re-commit after updating their local copy.
 ====
 For merge conflicts involving `README.md`, use the `Puoch-Mabor-M` branch version as the authoritative source.
->>>>
