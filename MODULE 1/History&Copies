@@ -1,0 +1,136 @@
+:::writing{variant=“standard” id=“58492”}
+
+# Historical Copies — Lecture Summary
+
+## Introduction
+
+Before modern version control systems existed, many people unknowingly practiced a simple form of version control by manually saving copies of their work. This might involve creating backup folders, renaming files with version numbers, emailing updated files to teammates, or saving snapshots before making major changes.
+
+Although these practices allow users to return to earlier versions of a project, they are considered a **primitive form of version control** because the process is manual, inefficient, and difficult to manage as projects grow.
+
+Modern version control systems formalize this idea and provide structured tools to manage historical versions of files more effectively.
+
+---
+
+## Evolution of Version Control
+
+When working on projects that change over time, people naturally try to preserve earlier versions of their work. This commonly occurs in situations such as:
+
+- Individuals saving backup copies before making significant modifications  
+- Teams sharing updated project files through email or cloud storage  
+- Complex projects where removed features may need to be restored later  
+
+In each of these situations, users are essentially attempting to maintain a **history of changes**.
+
+However, because this process relies on manual copying and file management, it becomes difficult to maintain as projects become larger and involve more contributors.
+
+---
+
+## Purpose of Keeping Historical Copies
+
+Keeping historical copies of project files provides several benefits:
+
+- It allows users to **restore previous versions** if a new change introduces problems.  
+- It helps track the **progress and development** of a project over time.  
+- It allows teams to understand **why certain modifications were made**.  
+- It enables comparison between earlier and newer versions of files.
+
+These benefits demonstrate why tracking file history is important in both individual and collaborative projects.
+
+---
+
+## Limitations of Manual Version Control
+
+Although manual backup methods can preserve project history, they have several major limitations.
+
+### Manual Processes
+
+Users must remember to create backups before making changes. If they forget, important versions may be lost.
+
+### Inefficient Storage
+
+Even small changes require copying entire files or folders, which wastes storage space and creates unnecessary duplication.
+
+### Poor Change Tracking
+
+It becomes difficult to determine:
+
+- Who made specific changes  
+- When the changes occurred  
+- Why the modifications were made  
+
+Without this information, troubleshooting and project management become more challenging.
+
+### Collaboration Problems
+
+When teams share files through email or file transfers, multiple versions of the same file may circulate. This can lead to confusion about which version is the most recent or correct one.
+
+---
+
+## Role of Modern Version Control Systems
+
+Modern version control systems solve these problems by automating change tracking and providing structured workflows.
+
+They allow users to:
+
+- Automatically track modifications to files  
+- Maintain detailed histories of project changes  
+- Compare different versions of files  
+- Restore previous versions when necessary  
+- Support collaboration among multiple contributors  
+
+These systems remove the need for manual file duplication while preserving complete project history.
+
+---
+
+## Types of Files Managed by Version Control
+
+Version control systems are capable of managing many types of files used in IT projects, including:
+
+- Source code  
+- Configuration files  
+- Documentation  
+- Images and media files  
+- Project assets used in design or editing workflows  
+
+This flexibility makes version control useful across many technical fields.
+
+---
+
+## Role of Git
+
+Git is one of the most widely used modern version control systems. It provides powerful tools for tracking file changes, managing project history, and enabling collaboration among developers and IT professionals.
+
+Git allows users to:
+
+- Record project history through commits  
+- Compare file versions efficiently  
+- Safely revert unwanted changes  
+- Coordinate work between multiple contributors
+
+Because of these capabilities, Git is widely used in software development, system administration, and DevOps environments.
+
+---
+
+## Comparing File Versions
+
+When multiple versions of a file exist, comparison tools can be used to identify the differences between them.
+
+These tools help users:
+
+- Detect exactly what changes were made  
+- Understand how files evolved over time  
+- Verify updates before integrating them into a project
+
+Utilities such as file comparison tools make it easier to review and validate changes before deployment.
+
+---
+
+## Key Takeaways
+
+- Manually saving copies of files is a basic form of version control.  
+- Manual version control becomes inefficient and difficult to manage as projects grow.  
+- Modern version control systems automate change tracking and maintain detailed file histories.  
+- Tools like Git provide structured workflows that improve collaboration, organization, and project reliability.
+
+:::
